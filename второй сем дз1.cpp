@@ -10,10 +10,11 @@ using namespace std;
  
 int main()
 {
-	int i,a,*b,k;
+	int i,k;
+	unsigned char a,*b;
 	cin>>a;
 
-	b=(int*)malloc(sizeof(int)*a);
+	b=(unsigned char*)malloc(sizeof(unsigned char)*a);
 	for (i=0; i<a; i++)
 		cin>>b[i];
 
